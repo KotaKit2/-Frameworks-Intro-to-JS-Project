@@ -1,15 +1,15 @@
 // List of titles
 const titles = [
-    "Attack on Titan",
+    "That time I got Reincarnated as a Slime",
     "Wind Breaker",
     "The Devil is a Part-Timer",
     "Darling in the Franxx",
-    "One Piece",
-    "My Hero Academia",
-    "Chainsaw Man",
-    "Jujutsu Kaisen",
+    "Seirei Gensouki: Spirit Chronicles",
+    "Beast Tamer",
+    "Overlord",
+    "Masamune-kun's Revenge",
     "Demon Slayer",
-    "Sword Art Online"
+    "Sacrificial Princess and the King of Beasts"
 ];
 
 // Function to filter titles based on user input
