@@ -1,39 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Navbar Example</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>AnimeStream</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css files/styles.css">
 </head>
-<body>
 
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">MySite</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AnimeStream</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login/Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Schedule.html">Similcast Shows</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <div class="text-center p-5 d-flex align-items-center justify-content-center" style="background: url('../images/banner%20concept.png') no-repeat center center / cover;
+         min-height: 80vh; width: 100%;">
+            <div>
+                <h1 class="fs-1 fw-bold text-white hero-text">Watch Your Anime</h1>
+                <p class="fs-5 text-light hero-text">Streaming your favorite anime anytime, anywhere.</p>
+                <a class="btn btn-dark btn-lg" href="#">Start Watching</a>
+            </div>
         </div>
     </div>
-</nav>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card bg-dark text-secondary">
+                <div class="card-container">
+                    <img src="../images/apothecary.png" class="card-img-top" alt="Anime Thumbnail">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Apotheccary Diaries</h5>
+                    <p class="card-text">Maomao, a clever young woman with medical expertise, who gets swept into palace
+                        intrigue, solving mysteries and uncovering secrets with her sharp mind.</p>
+                    <a href="#" class="btn btn-warning">Watch Now</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-4">
+            <div class="card bg-dark text-secondary">
+                <img src="../images/demonslayer.png" class="card-img-top" alt="Anime Thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">Demon Slayer</h5>
+                    <p class="card-text">Follow Tanjiro's journey to fight demons and save his sister.</p>
+                    <a href="#" class="btn btn-warning">Watch Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-dark text-secondary">
+                <img src="../images/killing slimes.png" class="card-img-top" alt="Anime Thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">I've Been Killing Slimes for 300 Years and Maxed out My Level!</h5>
+                    <p class="card-text">Azusa, reincarnated as an immortal witch, accidentally maxes out her level by
+                        casually defeating slimes for centuries. Her peaceful life turns chaotic as she attracts quirky
+                        allies and unexpected adventures.</p>
+                    <a href="#" class="btn btn-warning">Watch Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-dark text-secondary">
+                <img src="../images/rezero.png" class="card-img-top" alt="Anime Thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">Re:Zero starting life in another world</h5>
+                    <p class="card-text">Subaru is transported to a fantasy world and discovers he can rewind time upon
+                        death. Caught in a cycle of suffering, he fights to protect his loved ones and uncover the truth
+                        behind his power.</p>
+                    <a href="#" class="btn btn-warning">Watch Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-dark text-secondary">
+                <img src="../images/slime2.png" class="card-img-top" alt="Anime Thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">That Time I Got Reincarnated as a Slime!</h5>
+                    <p class="card-text">Satoru Mikami dies and is reborn as a slime named Rimuru in a fantasy world.
+                        Gaining powerful abilities, he befriends monsters and builds a thriving nation while facing
+                        formidable foes.</p>
+                    <a href="#" class="btn btn-warning">Watch Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-dark text-secondary">
+                <img src="../images/solo leveling.png" class="card-img-top" alt="Anime Thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">Solo Leveling</h5>
+                    <p class="card-text">Sung Jin-Woo, once the weakest hunter, gains a mysterious ability that lets him
+                        level up beyond limits. As he grows stronger, he uncovers dark secrets and battles powerful foes
+                        in a world of magic and monsters.
+                    </p>
+                    <a href="#" class="btn btn-warning">Watch Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>&copy; 2025 AnimeStream. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

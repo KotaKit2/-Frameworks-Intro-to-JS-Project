@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnimeStream - Login & Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css files/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AnimeStream</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="login.html">Login/Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Schedule.html">Similcast Shows</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div id="loginForm" class="form-container">
+                    <h2 class="text-center fw-bold">Login</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">Login</button>
+                    </form>
+                    <p class="text-center mt-3">Don't have an account? <a href="#" id="showRegister">Register here</a>
+                    </p>
+                </div>
+
+                <!-- Registration Form -->
+                <div id="registerForm" class="form-container d-none">
+                    <h2 class="text-center fw-bold">Register</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="registerName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="registerName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="registerEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerUsername" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="registerUsername" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="registerPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">Register</button>
+                    </form>
+                    <p class="text-center mt-3">Already have an account? <a href="#" id="showLogin">Login here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>&copy; 2025 AnimeStream. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById("showRegister").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("loginForm").classList.add("d-none");
+            document.getElementById("registerForm").classList.remove("d-none");
+        });
+
+        document.getElementById("showLogin").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("registerForm").classList.add("d-none");
+            document.getElementById("loginForm").classList.remove("d-none");
+        });
+    </script>
+</body>
+
+</html>

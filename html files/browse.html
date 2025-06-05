@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnimeStream - Browse Media</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AnimeStream</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="browse.html">Browse</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login/Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Schedule.html">Similcast Shows</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 position-relative">
+                <input type="text" id="search-bar" class="form-control" placeholder="Search Anime Stream...">
+                <div id="suggestions" class="suggestions text-white bg-dark"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h1 class="text-center fw-bold">Browse Anime Collection</h1>
+        <p class="text-center">Explore and watch your favorite anime anytime, anywhere.</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/apothecary.png" class="card-img-top" alt="Apothecary Diaries">
+                    <div class="card-body">
+                        <h5 class="card-title">The Apothecary Diaries</h5>
+                        <p class="card-text">Maomao, a clever young woman with medical expertise, gets swept into palace
+                            intrigue, solving mysteries with her sharp mind.</p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/demonslayer.png" class="card-img-top" alt="Demon Slayer">
+                    <div class="card-body">
+                        <h5 class="card-title">Demon Slayer</h5>
+                        <p class="card-text">Follow Tanjiro's journey to fight demons and save his sister in an epic
+                            adventure.</p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/windbreaker.png" class="card-img-top" alt="windbreaker">
+                    <div class="card-body">
+                        <h5 class="card-title">Wind Breaker</h5>
+                        <p class="card-text">Follows Haruka Sakura, a skilled fighter who enrolls at Furin High School,
+                            a place where strength reigns supreme. Initially focused only on proving himself, he
+                            gradually learns the value of teamwork as he joins his classmates in protecting their town
+                            from outside threats.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/devil is a part timer.png" class="card-img-top" alt="Devil is a part timer">
+                    <div class="card-body">
+                        <h5 class="card-title">The Devil Is a Part-Timer!</h5>
+                        <p class="card-text">After being defeated in his attempt to conquer Ente Isla, the Demon Lord
+                            Satan escapes to modern-day Tokyo, where he loses his powers and takes on the identity of
+                            Sadao Maou. Struggling to survive, he starts working at a fast-food restaurant, hilariously
+                            adapting to human life while facing unexpected encounters with his former enemies and
+                            allies.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/spirit chronicles.png" class="card-img-top" alt="Spirit Chronicles">
+                    <div class="card-body">
+                        <h5 class="card-title">Seirei Gensouki: Spirit Chronicles</h5>
+                        <p class="card-text">After dying in a traffic accident, college student Haruto Amakawa awakens
+                            in another world inside the body of a young orphan named Rio, inheriting both his memories
+                            and magical abilities. As Rio struggles with his newfound identity, he seeks revenge for his
+                            mother's murder while navigating the complexities of nobility, magic, and destiny.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/darling in the franxx.png" class="card-img-top" alt="DARLING in the FRANXX">
+                    <div class="card-body">
+                        <h5 class="card-title">DARLING in the FRANXX</h5>
+                        <p class="card-text">In a dystopian future where humanity is on the brink of extinction,
+                            children are raised solely to pilot giant mechs called Franxx and fight mysterious creatures
+                            known as Klaxosaurs. Among them, Hiro, a once-promising pilot, partners with the enigmatic
+                            Zero Two, whose dangerous reputation challenges their bond as they uncover the dark secrets
+                            behind their world.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/beast tamer.png" class="card-img-top" alt="beast tamer">
+                    <div class="card-body">
+                        <h5 class="card-title">Beast Tamer</h5>
+                        <p class="card-text">Rein, a beast tamer who is expelled from the hero's party for being
+                            perceived as weak, despite his unique ability to form contracts with animals. After rescuing
+                            Kanade, a powerful cat spirit, he discovers his true potential, gaining new abilities and
+                            forming bonds with other ultimate species, far surpassing his former allies.</p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/overlord.png" class="card-img-top" alt="overlord">
+                    <div class="card-body">
+                        <h5 class="card-title">Overlord</h5>
+                        <p class="card-text">In the final moments of the virtual reality game Yggdrasil, the powerful
+                            guild leader Momonga finds himself mysteriously trapped in the game world as his avatar,
+                            Ainz Ooal Gown. Determined to uncover the truth behind his situation, he sets out to
+                            dominate this new reality, commanding his loyal NPC followers while encountering unexpected
+                            challenges and rival factions.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/sacrificial princess.png" class="card-img-top" alt="Sacrificial princess">
+                    <div class="card-body">
+                        <h5 class="card-title">Sacrificial Princess and the King of Beasts</h5>
+                        <p class="card-text">In a kingdom ruled by beasts, human sacrifices are regularly offered to the
+                            fearsome Beast King, but Sariphi, the 99th sacrifice, defies expectations by showing no
+                            fear. Intrigued by her courage, the king spares her life and makes her his consort, leading
+                            her on a journey to become the queen of beasts despite opposition from those who reject a
+                            human ruler.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/endo and kobayashi.png" class="card-img-top" alt="endo and kobayashi">
+                    <div class="card-body">
+                        <h5 class="card-title">Endo and Koybayashi Live! The Latest on Tsundere Villainess Lieselotte
+                        </h5>
+                        <p class="card-text">Broadcasting club members Aoto Endo and Shihono Kobayashi play an otome
+                            game where the villainess, Lieselotte, is doomed to a tragic fate. However, when the game's
+                            prince unexpectedly hears their commentary as divine messages, they use their newfound
+                            influence to change Lieselottes destiny and uncover hidden truths within the game world.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/masamune.png" class="card-img-top" alt=" masamune">
+                    <div class="card-body">
+                        <h5 class="card-title">Masamune-kun's Revenge</h5>
+                        <p class="card-text">Masamune Makabe, once an overweight child mocked by his crush Aki Adagaki,
+                            reinvents himself into a handsome high schooler to exact revenge by making her fall for
+                            him—only to reject her in return. However, as he executes his plan, unexpected emotions and
+                            hidden truths complicate his pursuit of vengeance, leading to a deeper understanding of
+                            himself and Aki.
+                        </p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-secondary">
+                    <img src="../images/slime2.png" class="card-img-top" alt="That Time I Got Reincarnated as a Slime">
+                    <div class="card-body">
+                        <h5 class="card-title">That Time I Got Reincarnated as a Slime</h5>
+                        <p class="card-text">Satoru Mikami dies and is reborn as a slime named Rimuru in a fantasy
+                            world, befriending monsters and building a thriving nation.</p>
+                        <a href="#" class="btn btn-warning">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>&copy; 2025 AnimeStream. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="..//Script files/script.js"></script>
+</body>
+
+</html>
