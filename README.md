@@ -8,7 +8,7 @@ For bootstrap I used the following components
 - Buttons: Enhanced interactivity for browsing and filtering.
 - 
 My JavaScript Functions
-- - getSuggestions(input)
+-  getSuggestions(input)
 - Filters anime titles based on user input in the search bar.
 - Integrated by calling it inside showSuggestions() to provide real-time search results.
 - showSuggestions()
